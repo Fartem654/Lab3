@@ -1,0 +1,43 @@
+package ru.fadeev.geometry.PointDefault;
+
+public class Point {
+
+	private double x;
+	private double y;
+
+	public Point(double x, double y) {
+		setX(x);
+		setY(y);
+	}
+
+	public double getX() {
+		return x;
+	}
+
+	public void setX(double x) {
+		this.x = x;
+	}
+
+	public double getY() {
+		return y;
+	}
+
+	public void setY(double y) {
+		this.y = y;
+	}
+
+	public Point() {
+		setX(0);
+		setY(0);
+	}
+
+	public Point(Point point) {
+		setX(point.x);
+		setY(point.y);
+	}
+
+	@Override
+	public String toString() {
+		return "{" + x + ";" + y + "}";
+	}
+}
