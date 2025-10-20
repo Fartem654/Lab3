@@ -1,4 +1,4 @@
-package ru.fadeev.Main;
+package ru.fadeev.master;
 
 public interface NumericValue {
 	double toDouble();

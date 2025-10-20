@@ -8,14 +8,6 @@ public class Polyline {
 	private Point[] arrayOfPoint;
 
 	public void setArrayOfPoint(Point[] arrayOfPoint) {
-		this.arrayOfPoint = arrayOfPoint;
-	}
-
-	public Polyline() {
-		setArrayOfPoint(new Point[0]);
-	}
-
-	public Polyline(Point[] arrayOfPoint) {
 		if (arrayOfPoint == null) {
 			this.arrayOfPoint = new Point[0];
 		} else {
@@ -28,6 +20,14 @@ public class Polyline {
 				}
 			}
 		}
+	}
+
+	public Polyline() {
+		setArrayOfPoint(new Point[0]);
+	}
+
+	public Polyline(Point[] arrayOfPoint) {
+		setArrayOfPoint(arrayOfPoint);
 	}
 
 	public int contOfIndex(){

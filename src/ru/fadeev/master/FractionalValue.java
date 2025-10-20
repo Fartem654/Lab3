@@ -1,6 +1,4 @@
-package ru.fadeev.Calculator;
-
-import ru.fadeev.Main.NumericValue;
+package ru.fadeev.master;
 
 public class FractionalValue implements NumericValue {
 	private final double value;

@@ -74,7 +74,7 @@ public class Line implements Cloneable{
 			return false;
 		}
 		Line line = (Line) o;
-		return Objects.equals(start.getX(), line.start.getX()) && Objects.equals(start.getY(), line.start.getY()) && Objects.equals(end.getX(), line.end.getX()) && Objects.equals(end.getY(), line.end.getY());
+		return start.getX() == line.start.getX() && start.getY() == line.start.getY() && end.getX()== line.end.getX() && end.getY() == line.end.getY();
 	}
 
 	@Override

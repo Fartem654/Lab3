@@ -1,12 +1,13 @@
-package ru.fadeev.Main;
+package ru.fadeev.master;
 
 import static ru.fadeev.UserPanel.CheckInput.inputIntRange;
 
 import ru.fadeev.UserPanel.UserPanel;
 
-public class Main {
+public class master {
 
 	static void main(String[] args) throws CloneNotSupportedException {//7.3 java src/ru/fadeev/Calculator/Calculator.java 2 2
+
 		UserPanel panel = new UserPanel();
 		boolean panelCycle = true;
 		int cycle;

@@ -14,6 +14,7 @@ public class Point1Dim extends PointProperty {
 	public Point1Dim() {
 		setX(x);
 	}
+
 	public Point1Dim(String color, String creationTime) {
 		setX(0);
 		setColor(color);

@@ -1,8 +1,6 @@
-package ru.fadeev.Calculator;
+package ru.fadeev.master;
 import static java.lang.Integer.parseInt;
 import static java.lang.Math.pow;
-
-import ru.fadeev.Main.NumericValue;
 
 public class Calculator {
 
@@ -21,7 +19,7 @@ public class Calculator {
 		return pow(x, y);
 	}
 
-	public static void main(String[] args) { // 7.3   java src/ru/fadeev/Calculator/Calculator.java 2 2
+	public static void main(String[] args) { // 7.3   java src/ru/fadeev/master/Calculator.java 2 2
 		if (args.length < 2) {
 			System.err.println("Использование: java Calculator <X> <Y>");
 			return;

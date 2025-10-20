@@ -9,13 +9,12 @@ import static ru.fadeev.UserPanel.CheckInput.inputIntRangeMin;
 import static ru.fadeev.UserPanel.CheckInput.inputString;
 import static ru.fadeev.UserPanel.CheckInput.passStr;
 
-import java.util.Scanner;
-import ru.fadeev.Calculator.Calculator;
-import ru.fadeev.Calculator.FractionalValue;
-import ru.fadeev.Calculator.IntValue;
-import ru.fadeev.Calculator.RationalValue;
+import ru.fadeev.master.Calculator;
+import ru.fadeev.master.FractionalValue;
+import ru.fadeev.master.IntValue;
+import ru.fadeev.master.RationalValue;
 import ru.fadeev.ImmutableListOfValues.ImmutableListOfValues;
-import ru.fadeev.Main.NumericValue;
+import ru.fadeev.master.NumericValue;
 import ru.fadeev.geometry.AbstractPoint.Point1Dim;
 import ru.fadeev.geometry.AbstractPoint.Point2Dim;
 import ru.fadeev.geometry.AbstractPoint.Point3Dim;
